@@ -1,0 +1,99 @@
+header {
+    position: relative;
+    background-image: url(Img/section-background-portrait.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+
+.opacity {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .15);
+
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    z-index: 2;
+}
+
+.company-introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white;
+    width: 100%;
+}
+
+
+.page-intro {
+    font-size: 26px;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+.company-slogan {
+    font-size: 18px;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+.offer {
+    align-self: flex-start;
+    padding: 8px 45px;
+    background-color: transparent;
+    border: 3px solid #fff;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1s linear;
+}
+
+.offer:hover {
+    background-color: white;
+    color: black;
+}
+
+
+@media (min-width: 580px) {
+    .company-introduction {
+        width: 85%;
+    }
+
+    .header {
+        justify-content: flex-start;
+    }
+}
+
+@media (min-width: 660px) {
+    .company-introduction {
+        width: 65%;
+    }
+
+    .page-intro {
+        padding-bottom: 50px;
+    }
+
+    .company-slogan {
+        padding-bottom: 50px;
+    }
+}
+
+@media (min-width: 768px) {
+    .company-introduction {
+        width: 60%;
+    }
+}
+
+@media (min-width: 768px) and (orientation: portrait) {
+    .company-introduction {
+        width: 60%;
+    }
+}

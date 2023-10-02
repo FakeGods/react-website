@@ -1,0 +1,68 @@
+
+.about-us {
+  padding: 50px 0;
+  background-color: #f1f1f1;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.our-specialists {
+  font-size: 24px;
+  font-weight: bold;
+  color: #152D41
+}
+
+.img-container {
+  margin: 45px auto;
+  width: 199px;
+  height: 199px;
+}
+
+.profile-picture {
+  width: auto;
+  height: 100%;
+}
+
+.employer-details {
+  font-size: 18px;
+  line-height: 21px;
+  text-align: justify;
+}
+
+.employer-name {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 533px) and (orientation: landscape) {
+  .our-specialists {
+      align-self: flex-start;
+  }
+
+  .employer-details {
+      padding: 0 20px;
+  }
+}
+
+@media (min-width: 960px) {
+  .our-specialists {
+      align-self: flex-start;
+      margin-bottom: 70px;
+  }
+
+  .team-member {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .team-member:nth-of-type(even) {
+      flex-direction: row-reverse;
+  }
+
+}
