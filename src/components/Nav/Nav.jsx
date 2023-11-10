@@ -4,9 +4,9 @@ import "./Nav.css";
 function Nav() {
   return (
     <nav>
-      <div class="wrapper nav">
-        <div class="company-logo">nazwa firmy</div>
-        <ul class="menu">
+      <div className="wrapper nav">
+        <div className="company-logo">nazwa firmy</div>
+        <ul className="menu">
           <li>
             <a href="#about-us">o nas</a>
           </li>
